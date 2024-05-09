@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+  /* --primary-color: #d3c9f6; */
+  --primary-color: hsl(182, 69%, 55%);
+  --secondary-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Utilities */
+.text-primary {
+  color: var(--primary-color);
+}
+.text-lg {
+  font-size: 2rem;
+}
+.text-bold {
+  font-weight: 700;
+}
+
+.text-weight-med {
+  font-weight: 500;
+}
+
+.button {
+  padding: 10px 20px;
+}
+
+.bg-primary {
+  background: var(--primary-color);
+}
+
+.under-line {
+  height: 2px;
+  max-width: 32ch;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #000;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1024px;
+  width: 94%;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* Navbar style */
+
+.navbar {
+  background: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.navbar .container {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.nav-list {
+  display: flex;
+  gap: 8px;
+}
+.nav-list a {
+  display: inline-block;
+  padding: 23.8px 10px;
+  color: #fff;
+}
+
+.nav-list a:hover {
+  background: var(--primary-color);
+}
+
+/* Mainpage Section: Main */
+.my-image {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.mainpage-main {
+  /* height: 100vh; */
+  padding-top: 76px;
+  margin-bottom: 40px;
+}
+
+.mainpage-main .container .about-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainpage-main .container .about-box .content-wrapper {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 60ch;
+}
+
+.mainpage-main .button {
+  width: 150px;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Mainpage Section: Hobbies */
+.mainpage-hobbies .under-line {
+  width: 16ch;
+}
+
+.mainpage-hobbies .hobby-boxes {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.mainpage-hobbies .hobby-box {
+  height: 150px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainpage-hobbies .hobby-box:nth-child(even) {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.mainpage-hobbies .hobby-box:nth-child(odd) {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
