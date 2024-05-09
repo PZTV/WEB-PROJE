@@ -1,0 +1,8 @@
+Proje İçinde Yer Alacaklar
+1.Hakkında Sayfası: Bu sayfa, benim hakkımda temel bilgileri ve ilgi alanlarımı tanıtmak için kullanılıyor. Hobilerim, etkinliklerim ve sevdiğim sporlar gibi kişisel bilgileri burada paylaşıyorum.
+2.Özgeçmiş Sayfası: Bu sayfada eğitim bilgilerimi içeren bir CV niteliğinde özgeçmiş yer alıyor. Eğitim geçmişim, deneyimlerim ve sahip olduğum beceriler gibi bilgileri burada bulabilirsiniz.
+3.Şehrim Sayfası: Bu sayfa, memleketim ya da sevdiğim bir şehir hakkında bilgiler içeriyor. Şehrin nüfusu, tarihi ve gezilecek yerler gibi detaylar burada yer alıyor. Ayrıca bu sayfada bir slider bulunuyor ve şehre ait resimlere tıklandığında ilgili içeriğe yönlendirme yapılıyor.
+4.Mirasımız ve Takımımız Sayfaları: Kültürel mirasımızı tanıtmak ve şehrin takımını (futbol, basketbol vb.) tanıtmak için bu sayfaları oluşturduk. Kültürel miras sayfasında şehre ait önemli eserler ve tarihçesi bulunuyor. Takım sayfasında ise şehrin spor takımı hakkında bilgiler ve fotoğraflar yer alıyor.
+5.İlgi Alanlarım Sayfası: Bu sayfada ilgi alanlarımı temsil eden bir içerik bulunuyor. Internetten bulduğum ücretsiz bir API servisinden veri alarak, ilgi alanlarım çerçevesinde ilginç bilgileri gösteriyorum. Örneğin, sevdiğim filmler veya spor dalları hakkında bilgiler burada bulunabilir.
+6.Login Sayfası: Kullanıcı adı ve şifre ile giriş yapabileceğiniz bir sayfa. Kullanıcı adı şifre olarak öğrenci numarası kullanılıyor. Bu sayede, projeye özel bir giriş sistemi oluşturuyoruz.
+7.İletişim Sayfası: İletişim formunu içeren bir sayfa. Bu form aracılığıyla bana ulaşabilirsiniz. Formu doldurarak bana mesaj gönderebilirsiniz.
