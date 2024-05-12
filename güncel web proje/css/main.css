@@ -64,6 +64,9 @@ input[class^='btn-']:hover {
 .text-center {
   text-align: center;
 }
+.text-light {
+  color: #fff;
+}
 
 .py-1 {
   padding: 1rem 0;
@@ -287,8 +290,8 @@ img {
 }
 
 #header-inner {
-  background: url('../img/myimg.jpg') no-repeat 30% 50% / cover;
-  height: 5.5rem;
+  background: url('../img/myimg.jpg') no-repeat 50% 20% / cover;
+  /* height: 5.5rem; */
   border-bottom: 3px solid #ffbc00;
 }
 
@@ -376,6 +379,68 @@ img {
 #main-footer .footer-content .social .fab:hover {
   background: #ffbc00;
 }
+#about-a .about-info {
+  display: grid;
+  grid-template-areas:
+    'bioimage bio bio'
+    'aw1 aw2 aw3';
+  gap: 1.2rem;
+}
+
+#about-a .bio-image {
+  grid-area: bioimage;
+  max-height: 300px;
+}
+
+#about-a .bio {
+  grid-area: bio;
+  border-left: 3px solid #ffbc00;
+  padding: 0.8rem;
+  max-height: 300px;
+}
+
+#about-a .award-1 {
+  grid-area: aw1;
+}
+
+#about-a .award-2 {
+  grid-area: aw2;
+  margin-left: rem;
+}
+
+#about-a .award-3 {
+  grid-area: aw3;
+}
+
+#about-a .award-1 .fas,
+#about-a .award-2 .fas,
+#about-a .award-3 .fas {
+  color: #ffbc00;
+  margin: 1rem;
+}
+
+#about-b .progress {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.3rem;
+}
+#about-b .progress div {
+  height: 20px;
+  background: #ffbc00;
+  color: #fff;
+}
+
+#about-c .about-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+#about-c img {
+  width: 70%;
+}
 
 @media screen and (max-width: 880px) {
   #main-nav ul {
@@ -390,6 +455,7 @@ img {
     justify-content: space-between;
   }
 }
+
 @media screen and (max-width: 768px) {
   #home-a .container .specials {
     display: grid;
@@ -405,5 +471,13 @@ img {
   #home-b .process img {
     height: 200px;
     width: 300px;
+  }
+  #about-a .about-info {
+    display: grid;
+    grid-template-areas:
+      'bioimage bioimage bioimage'
+      'bio bio bio'
+      'aw1 aw2 aw3';
+    gap: 1.2rem;
   }
 }
