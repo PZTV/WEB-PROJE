@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İlgi Alanlarım</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d0152f05e7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <ul>
+            <div class="up-wrapper">
+              <li><a href="index.html">Hakkımda</a></li>
+              <li><a href="ozgecmis.html">Özgeçmiş</a></li>
+              <li><a href="sehrim.html">Şehrim</a></li>
+              <li><a href="mirasimiz.html">Mirasımız</a></li>
+            </div>
+            <div class="bottom-wrapper">
+              <li><a href="hobilerim.html">Hobilerim</a></li>
+              <li><a href="contact.html">Bana Ulaşın</a></li>
+              <li><a href="giris-yap.html" class="current">Giriş Yap</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="giris-yap">
+      <div class="container">
+        <h1 class="section-title">Giriş Yap</h1>
+        <div class="bottom-line"></div>
+        <form
+          class="login_form"
+          method="POST"
+          name="form"
+          action="php/login_check.php"
+          onsubmit="return validated()"
+        >
+          <div class="form-wrapper">
+            <label for="email">
+              <i class="fa-solid fa-user fa-2x"></i>
+            </label>
+            <input
+              type="email"
+              class="email"
+              id="email"
+              placeholder="Kullanıcı Adı"
+            />
+          </div>
+          <div class="email_error">Lütfen email alanını doldurunuz</div>
+          <div class="form-wrapper">
+            <label for="password">
+              <i class="fa-solid fa-lock fa-2x"></i>
+            </label>
+            <input
+              type="password"
+              class="password"
+              id="password"
+              placeholder="Şifre"
+            />
+          </div>
+          <div class="pass_error">Lütfen şifre alanını doldurunuz</div>
+          <div class="form-wrapper submit-wrapper">
+            <button type="submit" id="submit-button">Giriş Yap</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2024. All Right Reserved</p>
+        <div class="social">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="js/login.js"></script>
+  </body>
+</html>

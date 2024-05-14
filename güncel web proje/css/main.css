@@ -364,8 +364,8 @@ img {
   align-items: center;
 }
 #main-footer .footer-content .social {
-  display: flex;
-  gap: 1rem;
+  display: flex !important;
+  gap: 1rem !important;
 }
 #main-footer .footer-content .social .fab {
   border: 2px #fff solid;
@@ -444,6 +444,14 @@ img {
 
 #my-city-a {
   padding-top: 2rem;
+}
+
+#our-heritage {
+  padding-top: 2rem;
+}
+
+#our-heritage img {
+  padding-bottom: 2rem;
 }
 
 .carousel-item img {
@@ -550,6 +558,67 @@ img {
   font-size: 1.2rem;
   opacity: 0.7;
   margin: 0;
+}
+#giris-yap .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+}
+#giris-yap .container form {
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#giris-yap .container .form-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid #ffbc00;
+  padding: 5px 10px;
+  border-radius: 9999999px;
+  width: 400px;
+}
+#giris-yap .form-wrapper button {
+  background: #ffbc00;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  height: 30px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  width: 100%;
+}
+#giris-yap .submit-wrapper {
+  background: #ffbc00;
+}
+
+#giris-yap .container .form-wrapper input {
+  border: none;
+  outline: none;
+  width: 95%;
+  height: 30px;
+  font-size: 1.5rem;
+}
+#giris-yap .container .form-wrapper i {
+  color: #ffbc00;
+}
+
+#giris-yap .container h1 {
+  padding-top: 2rem;
+}
+
+#giris-yap .email_error {
+  display: none;
+  color: red;
+  padding-left: 1rem;
+}
+
+#giris-yap .pass_error {
+  display: none;
+  color: red;
+  padding-left: 1rem;
 }
 
 @media screen and (max-width: 880px) {
