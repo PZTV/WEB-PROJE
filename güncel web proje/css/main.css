@@ -64,8 +64,14 @@ input[class^='btn-']:hover {
 .text-center {
   text-align: center;
 }
+.text-left {
+  text-align: left !important;
+}
 .text-light {
   color: #fff;
+}
+.text-primary {
+  color: #ffbc00;
 }
 
 .py-1 {
@@ -115,6 +121,10 @@ input[class^='btn-']:hover {
   text-align: center;
   font-weight: 100;
   text-transform: uppercase;
+}
+
+.side-title {
+  font-weight: 500;
 }
 
 .items {
@@ -242,26 +252,26 @@ img {
 }
 
 #main-nav {
-  display: flex;
-  align-items: center;
-  padding-top: 1rem;
-  margin: auto;
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 1rem !important;
+  margin: auto !important;
 }
 #main-nav ul {
-  display: flex;
-  width: 100%;
-  margin: auto;
+  display: flex !important;
+  width: 100% !important;
+  margin: auto !important;
 }
 #main-nav ul div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
 }
 #main-nav li {
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem !important;
 }
 #main-nav a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #fff;
   text-transform: uppercase;
   border-bottom: 3px transparent solid;
@@ -293,17 +303,6 @@ img {
   background: url('../img/myimg.jpg') no-repeat 50% 20% / cover;
   /* height: 5.5rem; */
   border-bottom: 3px solid #ffbc00;
-}
-
-#home-a .specials {
-  margin-top: 3rem;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-#home-a .btn-main {
-  margin-top: 2rem;
 }
 
 #home-b .process {
@@ -619,6 +618,30 @@ img {
   display: none;
   color: red;
   padding-left: 1rem;
+}
+#hobbies {
+  padding-top: 3rem;
+}
+
+#hobbies .container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#tv-shows {
+  display: flex;
+  gap: 4px;
+
+  color: #fff;
+}
+
+#tv-shows img {
+  max-height: 400px;
+}
+#tv-shows li {
+  flex: 1;
+  background-color: #333;
 }
 
 @media screen and (max-width: 880px) {
