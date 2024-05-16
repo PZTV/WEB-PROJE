@@ -23,8 +23,6 @@ function validated() {
     return false
   }
 
-  // Diğer özel doğrulamaları buraya ekleyebilirsiniz
-
   return true
 }
 

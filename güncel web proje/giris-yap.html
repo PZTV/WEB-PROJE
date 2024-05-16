@@ -46,13 +46,14 @@
           onsubmit="return validated()"
         >
           <div class="form-wrapper">
-            <label for="email">
+            <label for="user">
               <i class="fa-solid fa-user fa-2x"></i>
             </label>
             <input
+              name="user"
               type="email"
-              class="email"
-              id="email"
+              class="user"
+              id="user"
               placeholder="Kullanıcı Adı"
             />
           </div>
@@ -63,9 +64,10 @@
             </label>
             <input
               type="password"
-              class="password"
-              id="password"
+              class="pass"
+              id="pass"
               placeholder="Şifre"
+              name="pass"
             />
           </div>
           <div class="pass_error">Lütfen şifre alanını doldurunuz</div>
