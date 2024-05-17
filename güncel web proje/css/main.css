@@ -701,17 +701,18 @@ img {
 .bana-ulasin .row-flex {
   display: flex;
   gap: 4px;
+  flex-direction: column;
 }
 .row-flex > div {
   flex: 1;
 }
 .bana-ulasin .select-box {
-  border: 2px solid #ffbc00;
-  padding: 10px 20px;
+  /* border: 2px solid #ffbc00; */
+
   display: flex;
   align-items: center;
   gap: 4px;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 200px;
 }
 .select-box label {
@@ -727,6 +728,7 @@ img {
 }
 .bana-ulasin textarea {
   border: #ffbc00 2px solid;
+  resize: none;
 }
 .bana-ulasin button {
   background: #ffbc00;
@@ -737,6 +739,14 @@ img {
   font-size: 1.5rem;
   font-weight: 100;
   width: 100%;
+}
+.temizle {
+  background: red;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.bana-ulasin span {
+  color: red;
 }
 
 @media screen and (max-width: 880px) {

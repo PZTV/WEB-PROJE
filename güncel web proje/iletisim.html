@@ -13,6 +13,7 @@
       src="https://kit.fontawesome.com/d0152f05e7.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   </head>
   <body>
     <header id="header-inner">
@@ -64,13 +65,29 @@
               </div>
             </div>
           </div>
-          <div class="contact-form">
-            <form class="bana-ulasin">
+          <div class="contact-form" id="app">
+            <form class="bana-ulasin" @submit.prevent="submitForm">
               <h2 class="side-title">İletİşİm Formu</h2>
               <input type="text" placeholder="İsim-Soyisim" />
+              <span class="error-message" v-if="errors.name"
+                >{{ errors.name }}</span
+              >
+              <!--huhuhaha-->
               <input type="email" placeholder="Email" />
+              <span class="error-message" v-if="errors.email"
+                >{{ errors.email }}</span
+              >
+              <!--huhuhaha-->
               <input type="text" placeholder="Adres" />
+              <span class="error-message" v-if="errors.address"
+                >{{ errors.name }}</span
+              >
+              <!--huhuhaha-->
               <input type="text" placeholder="Konu" />
+              <span class="error-message" v-if="errors.subject"
+                >{{ errors.subject }}</span
+              >
+              <!--hhuha-->
               <div class="row-flex">
                 <div class="radio-group">
                   <h3 class="side-title">Cİnsİyet:</h3>
@@ -92,6 +109,9 @@
                     <input type="radio" name="gender" id="man" value="man" />
                   </div>
                 </div>
+                <span class="error-message" v-if="errors.subject"
+                  >{{ errors.gender }}</span
+                >
                 <div class="select-box">
                   <label for="age" class="side-title">Yaş:</label>
                   <select id="age" class="age" name="age">
@@ -106,6 +126,9 @@
                     <option value="45-60">45-60</option>
                     <option value="60+">60+</option>
                   </select>
+                  <span class="error-message" v-if="errors.subject"
+                    >{{ errors.age }}</span
+                  >
                 </div>
                 <div class="select-box">
                   <label for="city" class="side-title">Şehir:</label>
@@ -197,6 +220,9 @@
                     <option value="80">Osmaniye</option>
                     <option value="81">Düzce</option>
                   </select>
+                  <span class="error-message" v-if="errors.city"
+                    >{{ errors.city }}</span
+                  >
                 </div>
               </div>
               <textarea
@@ -205,7 +231,12 @@
                 cols="30"
                 rows="10"
               ></textarea>
+              <span class="error-message" v-if="errors.subject"
+                >{{ errors.message }}</span
+              >
               <button type="submit">Gönder</button>
+              <button type="button" @click="submitFormVue">Formu Gönder</button>
+              <input type="reset" value="Temizle" class="temizle" />
             </form>
           </div>
         </div>
@@ -222,6 +253,7 @@
         </div>
       </div>
     </footer>
-    <script src="js/login.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/vue-validation.js"></script>
   </body>
 </html>
