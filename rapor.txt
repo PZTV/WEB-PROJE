@@ -1,0 +1,73 @@
+Site url: http://omer-akkiyal.42web.io/
+Proje Raporu
+
+Kapak Sayfası
+
+Ders Adı: Web Programlama
+Şube: 2. Öğretim A
+Dersi Veren : Dr.Öğr.Üyesi CAN YÜZKOLLAR
+Ödevin Konusu: Kişisel Web Sitesi Geliştirme
+Ödevi Hazırlayan: Ömer Akkıya - Öğrenci No: g231210058
+GitHub Linki: https://github.com/PZTV/WEB-PROJE/tree/new-design
+Projenin Host Edildiği Link: http://omer-akkiyal.42web.io/
+
+---------------------------------------------------
+Hakkında Sayfası
+
+Giriş sayfası niteliğinde tasarlanmıştır.
+Sayfa sahibinin kendisini tanıtan bilgiler, hobiler, etkinlikler ve sevdiği sporlar gibi içerikler içermektedir.
+Resimler, linkler ve görsellerle zenginleştirilmiştir.
+---------------------------------------------------
+
+Özgeçmiş Sayfası
+
+CV niteliğinde tasarlanmıştır.
+Semantic taglar kullanılarak eğitim bilgileri düzenlenmiştir.
+
+---------------------------------------------------
+
+Şehrim Sayfası
+
+Seçilen şehre ait bilgilerin bulunduğu bir sayfadır.
+Şehrin nüfusu, gezilecek yerler gibi içerikler yer alır.
+Başında veya sonunda en az 4 resimden oluşan bir slider bulunmaktadır.
+---------------------------------------------------
+
+Mirasımız Sayfası
+
+Kültürel miras niteliğindeki önemli bir eserin tanıtıldığı sayfadır.
+Kültürel mirasa ait detaylar ve linkler içerir.
+---------------------------------------------------
+
+
+İlgi Alanlarım Sayfası
+
+İlgi alanlarına göre internetten alınan verilerin gösterildiği bir sayfadır.
+Ücretsiz bir API servisinden veri alınmıştır.
+
+Login Sayfası
+
+Kullanıcı giriş sayfasıdır.
+Kullanıcı adı ve şifre kontrolü yapılarak giriş sağlanır.
+---------------------------------------------------
+
+
+İletişim Sayfası
+
+Form elemanları içeren iletişim sayfasıdır.
+Form elemanlarının doğruluğu JavaScript ve popüler bir JS framework ile kontrol edilir.
+---------------------------------------------------
+
+
+GitHub ve Hosting Bilgisi
+
+Proje GitHub üzerinde paylaşılmıştır.
+Proje bir hosting hizmeti üzerinde yayınlanmıştır.
+
+
+
+
+
+
+
+
