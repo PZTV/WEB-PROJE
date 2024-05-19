@@ -80,7 +80,7 @@
               <!--huhuhaha-->
               <input type="text" placeholder="Adres" />
               <span class="error-message" v-if="errors.address"
-                >{{ errors.name }}</span
+                >{{ errors.address }}</span
               >
               <!--huhuhaha-->
               <input type="text" placeholder="Konu" />
@@ -234,8 +234,10 @@
               <span class="error-message" v-if="errors.subject"
                 >{{ errors.message }}</span
               >
-              <button type="submit">Gönder</button>
-              <button type="button" @click="submitFormVue">Formu Gönder</button>
+              <button type="submit">Gönder (Vanilla JS)</button>
+              <button type="button" @click="submitFormVue">
+                Gönder (VUE JS)
+              </button>
               <input type="reset" value="Temizle" class="temizle" />
             </form>
           </div>
